@@ -9,7 +9,8 @@
         background-size: cover;
         background-position: center;
         color: white;
-        padding: 6rem 1rem; /* Padding atas-bawah lebih besar */
+        padding: 10rem 1rem; /* Padding atas-bawah lebih besar */
+        min-height: 500px;
         margin-bottom: 2rem;
         border-radius: .75rem; /* Sudut lebih tumpul */
         text-align: center;
@@ -19,16 +20,17 @@
     }
 </style>
 
-<div class="hero-section">
+<div class="hero-section" id="beranda">
     <div class="container">
         <h1 class="display-4">SELAMAT DATANG</h1>
         <p class="lead">Di Toko Elektronik kami, kami menyediakan barang-barang elektronik seperti mouse, monitor, keyboard, dan lainnya.</p>
     </div>
 </div>
-<!-- Akhir Hero Section -->
+
+<hr class="my-5" style="border-top: 2px solid #000;">
 
 
-<div class="mb-4">
+<div id="produk" class="produk-section mb-4 text-center">
     <h1>Katalog Produk</h1>
     <p>Temukan produk elektronik terbaik dengan harga terjangkau.</p>
 </div>

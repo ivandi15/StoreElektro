@@ -16,9 +16,9 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/produk/(:segment)', 'Home::detail/$1');
 $routes->get('/produk', 'Home::index');
+$routes->get('/beranda', 'Home::index');
 
 // === Rute untuk Autentikasi (Login, Register, Logout) ===
-// PASTIKAN BLOK INI ADA DAN BENAR
 $routes->get('/login', 'AuthController::login');
 $routes->post('/login', 'AuthController::attemptLogin');
 $routes->get('/register', 'AuthController::register');
