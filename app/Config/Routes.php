@@ -15,6 +15,7 @@ $routes->set404Override();
 // === Rute untuk Pengguna Umum (User) ===
 $routes->get('/', 'Home::index');
 $routes->get('/produk/(:segment)', 'Home::detail/$1');
+$routes->get('/produk', 'Home::index');
 
 // === Rute untuk Autentikasi (Login, Register, Logout) ===
 // PASTIKAN BLOK INI ADA DAN BENAR

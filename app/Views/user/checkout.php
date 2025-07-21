@@ -1,5 +1,4 @@
 <?= $this->extend('layouts/user_header') ?>
-
 <?= $this->section('content') ?>
 <h3>Checkout</h3>
 <div class="row">

@@ -1,5 +1,4 @@
 <?= $this->extend('layouts/user_header') ?>
-
 <?= $this->section('content') ?>
 <div class="card">
     <div class="row g-0">
