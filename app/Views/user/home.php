@@ -4,22 +4,21 @@
 <!-- Bagian Hero Section -->
 <style>
     .hero-section {
-        /* Menggunakan gambar dari Unsplash sebagai latar belakang */
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1920&auto=format&fit=crop');
         background-size: cover;
         background-position: center;
         color: white;
-        padding: 10rem 1rem; /* Padding atas-bawah lebih besar */
+        padding: 10rem 1rem; 
         min-height: 500px;
         margin-bottom: 2rem;
-        border-radius: .75rem; /* Sudut lebih tumpul */
+        border-radius: .75rem; 
         text-align: center;
     }
     .hero-section h1 {
-        font-weight: 700; /* Membuat font lebih tebal */
+        font-weight: 700;
     }
 </style>
-
+<!-- Bagian Section Hero -->
 <div class="hero-section" id="beranda">
     <div class="container">
         <h1 class="display-4">SELAMAT DATANG</h1>
@@ -29,7 +28,7 @@
 
 <hr class="my-5" style="border-top: 2px solid #000;">
 
-
+<!-- Bagian Section Produk -->
 <div id="produk" class="produk-section mb-4 text-center">
     <h1>Katalog Produk</h1>
     <p>Temukan produk elektronik terbaik dengan harga terjangkau.</p>
